@@ -13,7 +13,7 @@ def home():
 def result():
     # Get the value from the form input
     name = request.form['name']
-    return f"Hello, {name}!"
+    return f"Hello i am Ajeet, {name}!"
 
 if __name__ == "__main__":
     # Run the Flask app
